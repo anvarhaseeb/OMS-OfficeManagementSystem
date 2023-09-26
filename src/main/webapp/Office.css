@@ -1,0 +1,89 @@
+.text-bl{
+    color: blue;
+    font-weight: 700;
+}
+
+.accordion-button:not(.collapsed) {
+    color: Blue;
+}
+.txt-wght{
+    font-weight: 500;
+}
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(-90deg); 
+}
+
+.accordion-button:after {
+    order: -1; 
+    margin-left: 0; 
+    margin-right:20px; 
+}
+
+
+.navbarbg {
+    background-color:#0171c7;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-toggler {
+    color: #fff;
+    border: 1px solid #fff;
+}
+.sidebar {
+    position: fixed;
+    top:70px;
+    left: 0;
+    height: 100%;
+    width: 60px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    
+    transition: width 0.3s;
+}
+
+.sidebar a {
+    padding: 15px 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+    text-align: center;
+}
+
+.sidebar a:hover {
+    background-color: #f5f5f5;
+}
+
+.sidebar-icons {
+    padding-top: 20px;
+    color: #000000;
+}
+
+.sidebar-text {
+    display: none;
+}
+
+.content {
+    margin-left: 80px; 
+    transition: margin-left 0.3s;
+    padding: 15px;
+}
+
+.menu-button {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+ nav  a:hover {
+    background-color: #548bf3;
+}
+
